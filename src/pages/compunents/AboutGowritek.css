@@ -1,0 +1,14 @@
+/* src/components/AboutGowritek.css */
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
